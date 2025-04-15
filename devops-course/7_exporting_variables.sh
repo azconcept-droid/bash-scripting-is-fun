@@ -5,3 +5,5 @@
 # each user has ~/.bashrc or ~/.profile file where you can make variable permanent
 # and to make it globally available for all users you will edit /etc/profile file
 echo "The $SEASON season is more than expected, this time."
+
+# Export: is used to set environment variable in OS. This var will be available to all child processes created by current Bash process ever after
